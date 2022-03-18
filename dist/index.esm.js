@@ -2057,7 +2057,7 @@ var UserBlock = function (_a) {
     var _b = useWalletModal(login, logout, account), onPresentConnectModal = _b.onPresentConnectModal, onPresentAccountModal = _b.onPresentAccountModal;
     var accountEllipsis = account ? account.substring(0, 4) + "..." + account.substring(account.length - 4) : null;
     return (React.createElement("div", null, 
-                React.createElement(BuyBusdButton),
+                // React.createElement(BuyBusdButton),
                 account ? (React.createElement(Button, { size: "sm", variant: "tertiary", onClick: function () {
                 onPresentAccountModal();
             } }, accountEllipsis)) : (React.createElement(Button, { size: "sm", onClick: function () {
